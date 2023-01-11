@@ -174,13 +174,13 @@ L 25
 U 20";
 
     #[test]
-    fn test_example_input_part_1() {
+    fn test_input_part_1() {
         let positions = solve(TEST_INPUT_1, PART_1_ROPE_LENGTH);
         assert_eq!(positions, 13)
     }
 
     #[test]
-    fn test_example_input_part_2() {
+    fn test_input_part_2() {
         let positions = solve(TEST_INPUT_1, PART_2_ROPE_LENGTH);
         assert_eq!(positions, 1);
 
